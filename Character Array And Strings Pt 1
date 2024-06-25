@@ -1,0 +1,61 @@
+// #include<iostream>
+// using namespace std;
+
+// void minandmax(int *a, int *min, int *max){
+//     int small = a[0], large = a[0];
+//     for(int i = 1; i < 5; i++) {
+//         if(a[i] > large) {
+//             large = a[i];
+//         }
+//         if(a[i] < small) {
+//             small = a[i];
+//         }
+//     }
+//     *min = small;
+//     *max = large;
+// }
+
+// int main(){
+//     int a[5];
+//     int min, max;
+
+//     // Initialize array a with values
+//     for(int i = 0; i < 5; i++) {
+//         a[i] = i;
+//     }
+
+//     // Find min and max
+//     minandmax(a, &min, &max);
+
+//     // Print the results
+//     cout << "Minimum value: " << min << endl;
+//     cout << "Maximum value: " << max << endl;
+
+//     return 0;
+// }
+// #include<iostream>
+// using namespace std;
+// int main(){
+//             char name[1000];
+//     cout<<"Enter your name at last please put #:"<<endl;
+    
+//     int i=0;
+//     while(1){
+//         cin>>name[i];
+//         if(name[i]=='#')break;
+//         i++;
+//     }
+// i=0;
+//     cout<<"the name you have just enterd is :"<<endl;
+//     while(name[i]=='#'){
+//         cout<<name[i];
+//         i++;
+//     }
+// }
+#include<iostream>
+using namespace std;
+int main(){
+string name;
+    cin>>name;
+    cout<<name;
+}
